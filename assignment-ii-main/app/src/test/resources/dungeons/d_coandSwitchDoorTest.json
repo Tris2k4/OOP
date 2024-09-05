@@ -1,0 +1,39 @@
+{
+    "entities": [
+        {
+            "type" : "player",
+            "x" : 5,
+            "y" : 2
+        }, {
+            "type" : "boulder",
+            "x" : 5,
+            "y" : 4
+        }, {
+            "type" : "switch",
+            "x" : 6,
+            "y" : 4
+        }, {
+            "x": 6,
+            "y": 3,
+            "type": "wire"
+        }, {
+            "x": 6,
+            "y": 2,
+            "type": "switch_door",
+            "logic": "co_and"
+        }, {
+            "x": 7,
+            "y": 4,
+            "type": "wire"
+        }, {
+            "x": 7,
+            "y": 3,
+            "type": "wire"
+        },{
+            "x": 7,
+            "y": 2,
+            "type": "wire"
+        }
+    ],
+    "goal-condition": {"goal": "boulders"}
+}

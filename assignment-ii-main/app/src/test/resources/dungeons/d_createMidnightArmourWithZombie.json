@@ -1,0 +1,74 @@
+{
+    "entities": [
+        {
+            "x": 0,
+            "y": 0,
+            "type": "player"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "type": "sun_stone"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "type": "sword"
+        },
+        {
+            "key": "1",
+            "x": 0,
+            "y": 3,
+            "type": "key"
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "type": "wall"
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "type": "wall"
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "type": "wall"
+        },
+        {
+            "key": "1",
+            "x": 1,
+            "y": 4,
+            "type": "door"
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "type": "zombie_toast"
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "type": "wall"
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "type": "wall"
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "type": "wall"
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "type": "wall"
+        }
+    ],
+    "goal-condition": {
+        "goal": "exit"
+    }
+}
